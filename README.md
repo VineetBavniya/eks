@@ -30,6 +30,7 @@ To generate root account access keys for the AWS CLI:
 3. In the navigation pane, choose "Users" and then select your root user.
 4. Choose the "Security credentials" tab, and then under "Access keys for CLI, SDK, & API access," choose "Create access key."
 5. Download the .csv file to store your access key ID and secret access key.
+6. create mykeypair.pem file to access jenkins ec2 instance
 
 ### 2. Deploy EC2 Instance for Jenkins
 
