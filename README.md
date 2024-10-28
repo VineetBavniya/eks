@@ -66,6 +66,8 @@ This setup provides a robust CI/CD pipeline for managing an EKS cluster using Te
 
 ## Author
 
-Ansar Shaik -> 
-#Youtube Link of this project -: https://www.youtube.com/watch?v=q6tjkmX_DPM&ab_channel=DevOpsMaster
+Ansar Shaik
+
+## Youtube Link of this project 
 ```
+https://www.youtube.com/watch?v=q6tjkmX_DPM&ab_channel=DevOpsMaster
