@@ -47,7 +47,7 @@ resource "aws_route_table_association" "public_route_table_association" {
 // eip for private subnets
 
 resource "aws_eip" "eip" {
-  domain = aws_vpc.vpc.id
+  domain = "vpc"
   tags   = var.eip_variables
 }
 
