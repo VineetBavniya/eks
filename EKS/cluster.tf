@@ -38,10 +38,9 @@ resource "aws_eks_node_group" "eks_node_group" {
 
 
 data "aws_eks_cluster" "cluster" {
-  name = aws_eks_cluster.eks_cluster.cluster_id
-}
+  name = aws_eks_cluster.eks_cluster.name
 
 data "aws_eks_cluster_auth" "cluster_auth" {
-  name = aws_eks_cluster.eks_cluster.cluster_id
+  name = aws_eks_cluster.eks_cluster.name
 }
 
