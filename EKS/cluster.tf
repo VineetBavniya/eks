@@ -5,7 +5,7 @@ resource "aws_eks_cluster" "eks_cluster" {
 
   vpc_config {
     subnet_ids = [for subnet in aws_subnet.private_subnets : subnet.id]
-    vpc_id     = aws_vpc.vpc.id
+    #vpc_id     = aws_vpc.vpc.id
   }
 
 
